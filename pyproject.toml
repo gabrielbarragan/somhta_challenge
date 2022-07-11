@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "somhta_challenge"
+version = "0.1.0"
+description = "This project is for a job challenge"
+authors = ["Gabriel Rondon <gabrielbarragan07@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.78.0"
+uvicorn = "^0.18.2"
+gunicorn = "^20.1.0"
+motor = "^3.0.0"
+pymongo = {extras = ["srv"], version = "^4.1.1"}
+pydantic = {extras = ["email"], version = "^1.9.1"}
+python-dotenv = "^0.20.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

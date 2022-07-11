@@ -1,4 +1,4 @@
-#!/home/gabodev/retos_empleos/somhta_challenge/.venv/bin/python3
+#!/home/gabodev/retos_empleos/somhta_challenge/.venv/bin/python
 # -*- coding: utf-8 -*-
 import re
 import sys
